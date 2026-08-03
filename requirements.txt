@@ -1,0 +1,17 @@
+dash
+
+dash-bootstrap-components
+
+pandas
+
+requests
+
+plotly
+
+gunicorn
+
+beautifulsoup4
+
+vaderSentiment
+
+pillow
