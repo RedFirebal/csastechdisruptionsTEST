@@ -1,0 +1,7 @@
+pandas
+nltk
+vaderSentiment
+dash
+dash-bootstrap-components
+plotly
+matplotlib

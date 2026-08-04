@@ -76,20 +76,19 @@ def layout():
             dbc.Row(dbc.Col(
                 dcc.Link("← Back to Hub", href="/", className="back-link")
             )),
-            dbc.Row([
-                dbc.Col(html.H1("Music Data (The Compact Disc)"), className="text-center mt-3 mb-1")
-            ]),
-            dbc.Row([
-                dbc.Col(html.P("This page displays data about the compact disc, viewing it as a technological disruption."), className="text-center mt-3 mb-1")
-            ]),
-            dbc.Row([
-                dbc.Col(html.Br())
-            ]),
+            dbc.Card([
+                dbc.CardBody([
+                    html.H4("Music Data (The Compact Disc)", className="card-title"),
+                    html.P("This page displays data about the compact disc, viewing it as a technological disruption.", className="card-text"),
+                    html.P("The compact disc (shortened as CD), is described in Pohlman, 1992 as 'one of the most successful new electronic products ever introduced.' It was created under a rare collaborative effort by Philips and Sony and released worldwide in 1982. It is directly resposible for the downfall of competing analog music formats and the rise of digital music in earnest.", className="card-text")
+                ])
+            ], className="mb-3"),
             dbc.Card([
                 dbc.CardBody([
                     html.H4("About the Data", className="card-title"),
                     html.P(
-                        "The data used in this page was pulled from the New York Times API and the RIAA. The NYT API was used to pull articles about CDs and vinyls, which were then analyzed for sentiment. The RIAA data was used to pull sales data for CDs and vinyls.",
+                        "The data used in this page was pulled from the New York Times API and from Kaggle. The NYT API was used to pull articles about CDs and vinyls, which were then analyzed for sentiment. The NYT API is pulled from 1982 to 2019. This is due to the fact that the CD did not release worldwide untill 1982 and so pulling additional data for one technology and not the other didn't seem very reasonable. " \
+                        "The Kaggle dataset, posted by user Larxel (andrewmvd), was used for sales data. The dataset contains sales data for various music formats, including CDs, vinyls, digital downloads, streaming, cassettes, and DVDs. The data spans from 1973 to 2019 and includes estimated sales values in billions of dollars.",
                         className="card-text",
                     ),
                 ])
@@ -151,10 +150,22 @@ def layout():
                     dcc.Graph(id='display-graph4', figure=cd_sales_sent_fig)
                 ])
             ], className="mb-3"),
-            dbc.Row([
-                dbc.Col(html.Br())
-            ]),
-        ]
+            dbc.Card([
+                dbc.CardBody([
+                    html.H4("Conclusion", className="card-title"),
+                    html.P(
+                        "Using the information shown in the data, there are some general findings. According to both our scholarship and the concept of creative destruction, the compact disc does follow trends of about what we expect of a technological disruption. It quickly rose in prominance, massively reduced the sales and relevance of competing mediums, then fell off itself as newer and more advanced technologies were released. Despite this, an unexpected change occured with the slow revival of vinyl as a relevant music medium. The vinyl revival opperates inverse to what we expect of creative destruction and may suggest a few things ranging from a want to return to 'simpler times' through entertainment, a genuine belief in superiority of particular technologies even if they may seem technologically inferior, or a craving for physicality in a world that is increasingly digital.",
+                        className="card-text",
+                    ),
+                ])
+            ], className="mb-3"),
+            dbc.Card([
+                dbc.CardBody([  
+                    html.H4("Sources", className="card-title"),
+                    html.Img(src=pil_image, style={'width': '150px', 'height': '150px'})
+        ])
+            ], className="mb-3"),
+        ],
     )
 
 # Callback section

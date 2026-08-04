@@ -36,6 +36,13 @@ GOOGLE_TRENDS_START = "2004-01-01"
 GOOGLE_TRENDS_END = "2026-01-01"
 GOOGLE_TRENDS_EMBED_LOADER = "https://ssl.gstatic.com/trends_nrtr/3620_RC01/embed_loader.js"
 
+# TimelineJS embed source
+TIMELINE_EMBED_SRC = (
+    "https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html"
+    "?source=v2%3A2PACX-1vQ0Z4wD57GylzOlWllKd5gJMt14m5984ko3HoVs0CokFmkZnpR2QmD7QCHhUlQgrBN3evTZanaFhZz-"
+    "&font=Default&lang=en&initial_zoom=2&width=100%25&height=650"
+)
+
 
 def _google_trends_srcdoc(start_date: str, end_date: str) -> str:
     time_range = f"{start_date} {end_date}"
@@ -99,6 +106,16 @@ def layout():
                 className="text-muted mb-4",
             ),
         ])),
+
+        # Interactive timeline (TimelineJS)
+        html.H4("Timeline: CGI in Film", className="mb-1"),
+        html.Iframe(
+            src=TIMELINE_EMBED_SRC,
+            title="Timeline: CGI in Film",
+            style={"width": "100%", "height": "650px", "border": "none"},
+            allow="fullscreen",
+            className="mb-4",
+        ),
 
         # API setup down here
         dbc.Accordion([

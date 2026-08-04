@@ -1,0 +1,96 @@
+comment_id,theme,rationale_draft_only
+C001,General opinion,whether players care about AI content at all
+C002,Other,meta-comment about data source reliability
+C003,General opinion,detection/awareness of AI content
+C004,General opinion,audience differences in caring about AI
+C005,AI-generated art,"""slop"" = visually recognizable AI assets"
+C006,Creativity and innovation,"AI as inevitable creative tool, film analogy"
+C007,General opinion,community fragmentation on the issue
+C008,AI-generated art,AI thumbnail as a purchase deterrent
+C009,Ethical concerns,"boycott stance, environmental cost"
+C010,Ethical concerns,rebuttal on environmental impact claim
+C011,General opinion,AI use narrows customer base
+C012,Ethical concerns,devs hiding AI use = non-disclosure
+C013,General opinion,disagreement on how widely shared the sentiment is
+C014,Creativity and innovation,planning/design as human creative backbone
+C015,General opinion,fun > method of creation
+C016,AI-generated art,AI art/music/translation and reputation risk
+C017,AI-generated art,"AI art quality artifacts (""six fingers"")"
+C018,AI-generated art,won't buy visually AI-slop games
+C019,General opinion,"pushback on equating AI with ""slop"""
+C020,Employment and impact on developers,artist economic fear of AI competition
+C021,AI-generated art,asset flips / AI assets and their value
+C022,Creativity and innovation,accessibility of no-code game tools
+C023,Ethical concerns,"personal moral line on ""vibe coding"""
+C024,Ethical concerns,"boycott stance, environmental cost"
+C025,Ethical concerns,AI code doesn't require Steam disclosure
+C026,Employment and impact on developers,veteran devs using AI for boilerplate work
+C027,Employment and impact on developers,AI as substitute for learning core skills
+C028,General opinion,market mechanics will punish bad games regardless
+C029,General opinion,market flooded with low-effort AI games
+C030,Copyright and ownership,"""stolen work"" framing of gen-AI art/music"
+C031,Ethical concerns,"environmental cost, water/token usage"
+C032,Creativity and innovation,AI expands who can make games
+C033,Employment and impact on developers,"what counts as being a ""developer"""
+C034,Other,"personal/emotional aside, not substantive"
+C035,Creativity and innovation,defense of game design as a skill-intensive craft
+C036,Creativity and innovation,"""earned"" creative labor argument"
+C037,Employment and impact on developers,professional legitimacy / modder perspective
+C038,AI-generated art,DLSS 5 shifting from upscaling to generative image alteration
+C039,Other,joke about the DLSS acronym
+C040,Other,skepticism about what problem DLSS 5 solves
+C041,Other,Nvidia's AI investment/business motive
+C042,Other,Nvidia business strategy joke
+C043,Employment and impact on developers,AI framed as a studio headcount-reduction tool
+C044,Other,"AI industry ""bubble"" economics"
+C045,AI-generated art,DLSS output compared to generic AI-generated images
+C046,Other,off-topic performance request
+C047,AI-generated art,"DLSS as an ""AI filter"" altering character look"
+C048,AI-generated art,visual quality complaint
+C049,Other,"""solution looking for a problem"""
+C050,AI-generated art,"""generic ai generated shit"""
+C051,AI-generated art,visual quality complaint
+C052,AI-generated art,"""Deep Learning Super Slop"" joke"
+C053,AI-generated art,AI altering character design (removing a scar)
+C054,AI-generated art,AI changing character's visual authenticity
+C055,Other,"product suggestion, unrelated to sentiment"
+C056,AI-generated art,sliders don't really preserve artistic intent
+C057,Other,technical performance wish
+C058,Other,general distrust of Nvidia's claims
+C059,AI-generated art,dismissive of visual quality
+C060,AI-generated art,"""Deep Learning Super Slopping"" joke"
+C061,AI-generated art,"""DLSSLOP"" - visual quality dismissal"
+C062,Ethical concerns,award disqualified over undisclosed AI placeholder assets
+C063,Ethical concerns,breach of competition's AI-usage rules
+C064,General opinion,AI-augmented coding is probably ubiquitous now
+C065,Ethical concerns,proportionality of the AI-usage penalty
+C066,Ethical concerns,how AI-usage disclosure wording gets interpreted
+C067,Ethical concerns,proportionality / overreaction to minor AI use
+C068,AI-generated art,specific AI-generated placeholder texture asset
+C069,Ethical concerns,studio non-disclosure scandal
+C070,Ethical concerns,"where the line is for ""acceptable"" AI use"
+C071,Ethical concerns,honesty/transparency about using AI
+C072,Ethical concerns,people claiming AI work as their own
+C073,Ethical concerns,"corporate ""AI-free"" claims are misleading"
+C074,Copyright and ownership,training data used without consent; augment vs. replace
+C075,Other,tangential AI-written-book anecdote
+C076,AI-generated art,"defining ""no AI"" as no AI-generated assets"
+C077,Creativity and innovation,developer retains creative control despite AI-assisted workflow
+C078,Creativity and innovation,"AI as one tool among many, not a full replacement"
+C079,General opinion,community bias against anything AI-labeled
+C080,Creativity and innovation,value of human authorship in entertainment media
+C081,AI-generated art,selling AI art/music assets seen as low-effort
+C082,Employment and impact on developers,double standard: big studios vs. indie devs
+C083,Employment and impact on developers,large studios face no real consequences
+C084,General opinion,"rhetorical pushback on ""big corps do it too"""
+C085,Creativity and innovation,AI lowering the skill barrier to entry
+C086,General opinion,split consumer reactions to discovering AI use
+C087,General opinion,"historical parallel to past ""asset flip"" witch hunts"
+C088,Other,sarcastic meta aside
+C089,Employment and impact on developers,professional artist's perspective on AI in the art pipeline (also touches junior-developer displacement)
+C090,Creativity and innovation,AI framed as destroying the creative process itself
+C091,General opinion,distinguishing laziness from AI as the root problem
+C092,Other,market oversaturation from lower barriers to making games
+C093,Creativity and innovation,AI enabling unfinished/half-baked creative ideas
+C094,Ethical concerns,speculation about corporate motives for hiding AI use
+C095,Creativity and innovation,creative constraints/boundaries argument

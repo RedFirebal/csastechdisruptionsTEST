@@ -269,7 +269,7 @@ body {
 }
 
 .gaming-timeline-node {
-    background-color: #0a3d62;
+    background-color: #1f5c4a;
     color: #fff;
     font-weight: 600;
     padding: 12px 28px;
@@ -279,8 +279,12 @@ body {
 }
 
 .gaming-timeline-arrow {
-    color: #0a3d62;
+    color: #1f5c4a;
     font-size: 1.4rem;
     line-height: 1.4rem;
     margin: 4px 0;
+}
+
+.gaming-page .back-link {
+    color: #1f5c4a;
 }

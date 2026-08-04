@@ -61,17 +61,17 @@ hub_layout = html.Div([
     html.Div([
         topic_section(
             "Music", "CD to Vinyl",
-            "Placeholder description",
+            "Comparing the Compact Disc to Vinyl using Sales Data and Sentiment Analysis",
             "/music", "#3a2e6b", "See Music Data",
         ),
         topic_section(
-            "Gaming", "The jump to 3D",
-            "Placeholder description —  video games",
+            "Gaming", "Player Perceptions of AI",
+            "Sentiment analysis of real Reddit discussions on AI in game development.",
             "/gaming", "#1f5c4a", "Explore Gaming",
         ),
         topic_section(
-            "Film", "The evolution of CGI",
-            "Placeholder description",
+            "Film", "The Evolution of CGI",
+            "Discussing Trends and Recption of CGI as well as AI in Film",
             "/film", "#7a3b1a", "Explore Film",
         ),
     ], className="topic-sections"),
