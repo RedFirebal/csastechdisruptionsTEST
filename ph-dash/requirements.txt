@@ -15,3 +15,5 @@ beautifulsoup4
 vaderSentiment
 
 pillow
+
+openpyxl
